@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1602894281 source:/home/jacob/Dropbox/CSC2110-Assignment03/accquestion.cpp
+	<iostream>
+	"accquestion.h"
+
+1602894283 /home/jacob/Dropbox/CSC2110-Assignment03/accquestion.h
+	"mcquestion.h"
+
+1602881288 /home/jacob/Dropbox/CSC2110-Assignment03/mcquestion.h
+	<string>
+	"question.h"
+
+1602474957 /home/jacob/Dropbox/CSC2110-Assignment03/question.h
+	<string>
+
+1602890850 source:/home/jacob/Dropbox/CSC2110-Assignment03/main.cpp
+	<iostream>
+	<cmath>
+	"quiz.h"
+
+1602882114 /home/jacob/Dropbox/CSC2110-Assignment03/quiz.h
+	<string>
+	"naquestion.h"
+	"saquestion.h"
+	"mcquestion.h"
+	"occquestion.h"
+	"accquestion.h"
+
+1602887223 /home/jacob/Dropbox/CSC2110-Assignment03/naquestion.h
+	"question.h"
+
+1602888103 /home/jacob/Dropbox/CSC2110-Assignment03/saquestion.h
+	<string>
+	"question.h"
+
+1602881327 /home/jacob/Dropbox/CSC2110-Assignment03/occquestion.h
+	"mcquestion.h"
+
+1602881263 source:/home/jacob/Dropbox/CSC2110-Assignment03/mcquestion.cpp
+	<iostream>
+	<string>
+	"mcquestion.h"
+
+1602887228 source:/home/jacob/Dropbox/CSC2110-Assignment03/naquestion.cpp
+	<iostream>
+	"naquestion.h"
+
+1602881366 source:/home/jacob/Dropbox/CSC2110-Assignment03/occquestion.cpp
+	<iostream>
+	"occquestion.h"
+
+1602474957 source:/home/jacob/Dropbox/CSC2110-Assignment03/question.cpp
+	<iostream>
+	<string>
+	"question.h"
+
+1602887187 source:/home/jacob/Dropbox/CSC2110-Assignment03/quiz.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	"quiz.h"
+
+1602888537 source:/home/jacob/Dropbox/CSC2110-Assignment03/saquestion.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	"saquestion.h"
+

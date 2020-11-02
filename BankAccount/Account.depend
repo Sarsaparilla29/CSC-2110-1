@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1599162954 source:/home/jacob/Account/account.cpp
+	<iostream>
+	<iomanip>
+	"account.h"
+
+1599163581 /home/jacob/Account/account.h
+
+1599163625 source:/home/jacob/Account/main.cpp
+	<iostream>
+	"account.h"
+
+1600103920 source:/home/jacob/Dropbox/csc_2110/Account (Case Conflict)/account.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"account.h"
+
+1600103747 /home/jacob/Dropbox/csc_2110/Account (Case Conflict)/account.h
+
+1600103681 source:/home/jacob/Dropbox/csc_2110/Account (Case Conflict)/main.cpp
+	<iostream>
+	<string>
+	"account.h"
+
+1600128581 source:/home/jacob/Dropbox/csc_2110/BankAccount/account.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"account.h"
+
+1600126016 /home/jacob/Dropbox/csc_2110/BankAccount/account.h
+
+1600128171 source:/home/jacob/Dropbox/csc_2110/BankAccount/main.cpp
+	<iostream>
+	<string>
+	"account.h"
+	<iomanip>
+

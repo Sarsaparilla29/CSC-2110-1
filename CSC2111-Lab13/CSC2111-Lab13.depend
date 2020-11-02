@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603230991 source:/home/jacob/Dropbox/CSC2111-Lab13/numberType.cpp
+	<iostream>
+	"numberType.h"
+
+1603233032 /home/jacob/Dropbox/CSC2111-Lab13/numberType.h
+
