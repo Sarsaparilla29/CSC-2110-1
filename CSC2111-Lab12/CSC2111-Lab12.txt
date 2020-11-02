@@ -1,0 +1,53 @@
+        CSC2111-Lab12
+1. What is the output of the main function?
+    The output of the main function will be as follows...
+    5
+    small: -- 
+    x: 2, y = 3
+    *-*-*-*-*-*-*-*-*-*-*-*
+
+    8
+    small: -- 
+    x: 3, y = 5
+    
+    we can determine this because in the main function we see that the a pointer object 
+    is created for small (*ptrSmall). And also an objectSmall given the values (2,3) Followed by 
+    this the objectBig(3,5,9) is created for the notSmall class. the memory address for ptrSmall 
+    is set equal to ObjectSmall given which modifies the values x = 2, and y = 3. Then it output
+    the value of the add() function which return x + y in this case 2 + 3. Then we see the print 
+    function from class small is pointed too print(), which outputs from that function. 
+    The memory address for ptrSmall is changed to the memory address for objectBig. this changes
+    the values for x = 3, y = 5. But there is no z so it does not change. Then the add function
+    is pointed to by the ptrSmall function return 3 + 5 which is 8. Then the print function is
+    pointed to and the program ends.
+2. What is the output with the modified small class?
+    The output of the main function will be as follows...
+    5
+    small: -- 
+    x: 2, y = 3
+    *-*-*-*-*-*-*-*-*-*-*-*
+
+    17
+    small: -- 
+    x: 3, y = 5
+    noSmall--- z: 9
+    
+    In this program the functions print() and add() have been made into virtual functions and
+    will be overwritten by the data in the notSmall class. The values for the first half of the
+    output will be the same and the second half is changed. After ptrSmall is set to the memory
+    address for objectBig, ptrSmall points to the add function which points to notSmall as it
+    has been overwritten which then adds z + the value we get when calling to the small::add() 
+    function returning 17. Then the ptrSmall points to print which has been overwritten and 
+    points to the notSmall print() outputting that function instead.
+3. Rewrite the definition for the class student so that the functions print and calculateGPA
+   are pure virtual functions.
+    Rewritten as pure virtual functions...
+    class studentType: public personType{
+        public:
+            virtual void print() = 0;
+            virtual void calculateGPA() = 0;
+            ...
+   };
+   In order to write these two functions as pure virtual functions we add virtual to the start
+   of the function and set them equal to 0. This also makes studentType into an abstract class.
+
